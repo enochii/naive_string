@@ -1,13 +1,13 @@
 # mystring
 
-c++ assignment, naive string implementation.
+c++ assignment, a naive string implementation with COW(Copy On Write).
 
-## note
+## contained files
 
-mystring_naive.h/mytest.cpp:just ignore them..
+mystring_naive.h, mytest.cpp: please just ignore them..
 
-mystring.h:reference counting, only this one can pass all cases of tester.cpp
+mystring.h: reference counting, only this one can pass all testcases of tester.cpp
 
-mystring.h:reference counting and char proxy
+mystring_with_proxy.h: reference counting and char proxy
 
-test file:testhelper.h,tester.cpp
+testhelper.h, tester.cpp: test your implementation with them
